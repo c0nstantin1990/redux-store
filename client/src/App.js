@@ -14,8 +14,9 @@ import NoMatch from "./pages/NoMatch";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Nav from "./components/Nav";
-import { StoreProvider } from "./utils/GlobalState";
 import Success from "./pages/Success";
+import { Provider } from "react-redux";
+import store from "./redux/store";
 import OrderHistory from "./pages/OrderHistory";
 
 const httpLink = createHttpLink({
@@ -42,7 +43,7 @@ function App() {
     <ApolloProvider client={client}>
       <Router>
         <div>
-          <StoreProvider>
+          <Provider store={store}>
             <Nav />
             <Routes>
               <Route path="/" element={<Home />} />
@@ -53,7 +54,7 @@ function App() {
               <Route path="/products/:id" element={<Detail />} />
               <Route path="*" element={<NoMatch />} />
             </Routes>
-          </StoreProvider>
+          </Provider>
         </div>
       </Router>
     </ApolloProvider>
