@@ -23,13 +23,9 @@
   },
   "homepage": "https://github.com/c0nstantin1990/redux-store#readme",
   "devDependencies": {
-    "concurrently": "^8.2.1",
-    "redux-devtools": "^3.7.0"
+    "concurrently": "^8.2.1"
   },
   "dependencies": {
-    "@reduxjs/toolkit": "^1.9.5",
-    "if-env": "^1.0.4",
-    "redux": "^4.2.1",
-    "stripe": "^13.6.0"
+    "redux": "^4.2.1"
   }
 }
