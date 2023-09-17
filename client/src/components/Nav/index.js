@@ -39,7 +39,7 @@ function Nav() {
           <span role="img" aria-label="shopping bag">
             🛍️
           </span>
-          -Shop-Shop
+          Redux Store
         </Link>
       </h1>
 
