@@ -21,7 +21,7 @@ This web application built with React and Redux for efficient state management. 
 Main Page:
 ![Main Page](/screenshots/main.jpeg)
 
-Book Search:
+Cart:
 ![Cart](/screenshots/cart.jpeg)
 
 GitHub Repo: https://github.com/c0nstantin1990/redux-store
