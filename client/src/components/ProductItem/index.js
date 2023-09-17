@@ -14,8 +14,6 @@ function ProductItem(item) {
 
   const { cart } = state;
 
-  const { image, name, _id, price, quantity } = item;
-
   const addToCart = () => {
     const itemInCart = cart.find((cartItem) => cartItem._id === _id);
     if (itemInCart) {
