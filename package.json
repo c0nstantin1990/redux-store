@@ -26,6 +26,7 @@
     "concurrently": "^8.2.1"
   },
   "dependencies": {
+    "if-env": "^1.0.4",
     "redux": "^4.2.1"
   }
 }
